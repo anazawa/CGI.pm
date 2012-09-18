@@ -4,7 +4,7 @@ use Test::More tests => 1;
 
 my $CRLF = $CGI::CRLF;
 
-subtest 'p3p' => sub {
+subtest '-p3p' => sub {
     my $cgi = CGI->new;
 
     my $got = $cgi->header( -p3p => "CAO DSP LAW CURa" );

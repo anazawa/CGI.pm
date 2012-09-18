@@ -5,7 +5,7 @@ use Test::More tests => 1;
 
 my $CRLF = $CGI::CRLF;
 
-subtest 'nph' => sub {
+subtest '-nph' => sub {
     my $cgi = CGI->new;
 
     my $got = $cgi->header( -nph => 0 );

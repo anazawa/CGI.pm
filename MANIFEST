@@ -33,6 +33,7 @@ lib/CGI/Switch.pm
 lib/CGI/Util.pm
 Makefile.PL
 MANIFEST			This list of files
+META.yml			Module meta-data (added by MakeMaker)
 README
 t/apache.t
 t/autoescape.t
@@ -49,6 +50,12 @@ t/form.t
 t/function.t
 t/gen-tests/gen-start-end-tags.pl
 t/headers.t
+t/headers/content_disposition.t
+t/headers/content_type.t
+t/headers/nph.t
+t/headers/p3p.t
+t/headers/set_cookie.t
+t/headers/window_target.t
 t/hidden.t
 t/html.t
 t/http.t
@@ -61,8 +68,8 @@ t/popup_menu.t
 t/pretty.t
 t/push.t
 t/query_string.t
-t/rt-52469.t
 t/request.t
+t/rt-52469.t
 t/save_read_roundtrip.t
 t/start_end_asterisk.t
 t/start_end_end.t
@@ -73,9 +80,8 @@ t/unescapeHTML.t
 t/upload.t
 t/upload_post_text.txt
 t/uploadInfo.t
-t/user_agent.t
 t/url.t
+t/user_agent.t
 t/utf8.t
 t/util-58.t
 t/util.t
-META.yml                                 Module meta-data (added by MakeMaker)
